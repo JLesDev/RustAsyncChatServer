@@ -7,9 +7,7 @@ use tokio::{
 fn give_me_default<T>() -> T 
 where 
     T: Default,
-{
-    Default::default()
-}
+{ Default::default() }
 
 #[tokio::main]
 async fn main() {
